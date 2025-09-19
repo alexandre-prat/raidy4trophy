@@ -13,7 +13,10 @@
 <body>
   <header class="site-header" id="top">
     <div class="container">
-      <a href="#top" class="logo">Raidy<span>4</span>Trophy</a>
+      <a href="#top" class="logo" aria-label="Raidy4Trophy">
+        <img src="assets/img/logo-cool.png" alt="Raidy4Trophy">
+        <span class="sr-only">Raidy4Trophy</span>
+      </a>
       <nav class="main-nav" aria-label="Navigation principale">
         <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
           <span class="sr-only">Ouvrir le menu</span>
@@ -37,15 +40,25 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
         <div class="hero__content">
+          <div class="hero__badge">
+            <span>Équipage #128</span>
+            <span>Édition 2025</span>
+          </div>
           <p class="hero__eyebrow">Association étudiante</p>
           <h1 id="hero-title">Raidy4Trophy, embarquez avec nous pour l'aventure 4L Trophy 2025</h1>
-          <p>Ensemble, nous préparons une expérience humaine, sportive et solidaire afin d'acheminer du matériel scolaire et médical aux enfants du Maroc. Soutenez notre équipage et participez à cette aventure unique.</p>
+          <p>Ensemble, nous préparons une expérience humaine, sportive et solidaire pour faire rayonner l'esprit du 4L Trophy. Notre objectif : acheminer du matériel scolaire et médical aux enfants du Maroc tout en partageant une aventure fun et fédératrice.</p>
+          <ul class="hero__tags" aria-label="Mots-clés de l'aventure">
+            <li>#4LTrophy</li>
+            <li>#Solidarité</li>
+            <li>#Fun&amp;Desert</li>
+          </ul>
           <div class="hero__cta">
             <a class="btn btn--primary" href="#soutiens">Soutenir le projet</a>
             <a class="btn btn--ghost" href="#projet">Découvrir notre feuille de route</a>
           </div>
         </div>
         <div class="hero__card" role="presentation">
+          <p class="hero__card-label">Destination Marrakech</p>
           <div class="hero__stats">
             <div>
               <span class="stat">6 000 km</span>
@@ -60,6 +73,7 @@
               <span class="label">membres motivés, prêts à relever tous les défis</span>
             </div>
           </div>
+          <p class="hero__card-note">+20 éditions solidaires, des milliers d'enfants accompagnés.</p>
         </div>
       </div>
     </section>
@@ -206,20 +220,37 @@
         <p class="section__eyebrow">Rencontrez-nous</p>
         <h2 id="equipe-title">Un équipage engagé et complémentaire</h2>
         <div class="team-grid">
-          <article class="team-card">
-            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80" alt="Portrait de Julie" loading="lazy">
+          <article class="team-card team-card--lead">
+            <div class="team-card__image">
+              <img src="assets/img/florian-square.jpg" alt="Florian Durand, président de Raidy4Trophy" loading="lazy">
+              <span class="team-card__badge">Président &amp; pilote</span>
+            </div>
             <div class="team-card__content">
-              <h3>Julie Martin</h3>
-              <p class="role">Présidente &amp; pilote</p>
-              <p>Étudiante en école d'ingénieurs, passionnée de mécanique et d'innovation sociale. Julie coordonne la préparation technique de la 4L.</p>
+              <h3>Florian Durand</h3>
+              <p class="role">Président &amp; pilote</p>
+              <p>Capitaine de l'équipage, Florian est le moteur du projet. Il coordonne la préparation mécanique, l'identité graphique et les actions solidaires auprès de nos partenaires.</p>
             </div>
           </article>
           <article class="team-card">
-            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80" alt="Portrait de Lucas" loading="lazy">
+            <div class="team-card__image">
+              <img src="assets/img/lea-leroy.jpg" alt="Léa Leroy, responsable logistique de Raidy4Trophy" loading="lazy">
+              <span class="team-card__badge">Logistique</span>
+            </div>
             <div class="team-card__content">
-              <h3>Lucas Bernard</h3>
-              <p class="role">Trésorier &amp; copilote</p>
-              <p>Étudiant en école de commerce, spécialiste du financement participatif. Lucas pilote la recherche de sponsors et la communication.</p>
+              <h3>Léa Leroy</h3>
+              <p class="role">Responsable logistique</p>
+              <p>Léa orchestre notre calendrier d'évènements, la collecte des dons et la préparation des kits solidaires. Elle veille à ce que chaque action soit fluide et joyeuse.</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <div class="team-card__image">
+              <img src="assets/img/noah-brun.jpg" alt="Noah Brun, copilote communication de Raidy4Trophy" loading="lazy">
+              <span class="team-card__badge">Copilote</span>
+            </div>
+            <div class="team-card__content">
+              <h3>Noah Brun</h3>
+              <p class="role">Copilote communication</p>
+              <p>Noah anime les réseaux sociaux, prépare les reportages et donne vie à nos supports sponsor. Son credo : partager l'aventure avec humour et authenticité.</p>
             </div>
           </article>
         </div>
