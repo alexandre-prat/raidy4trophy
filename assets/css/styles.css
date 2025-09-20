@@ -344,7 +344,18 @@ img {
 }
 
 .section--alt {
-  background: linear-gradient(180deg, rgba(255, 230, 199, 0.32), rgba(255, 255, 255, 0.98));
+  /*background: linear-gradient(180deg, rgba(255, 230, 199, 0.32), rgba(255, 255, 255, 0.98));*/
+  background: url("../img/4l-background-2.png") center center/cover no-repeat;
+}
+
+.section--alt-2 {
+  /*background: linear-gradient(180deg, rgba(255, 230, 199, 0.32), rgba(255, 255, 255, 0.98));*/
+  background: url("../img/partenariat.jpg") center center/cover no-repeat;
+}
+
+.section--alt-3 {
+  /*background: linear-gradient(180deg, rgba(255, 230, 199, 0.32), rgba(255, 255, 255, 0.98));*/
+  background: url("../img/4l-event.jpg") center center/cover no-repeat;
 }
 
 .section--cta {
