@@ -611,6 +611,18 @@ img {
   box-shadow: 0 50px 90px rgba(239, 35, 60, 0.25);
 }
 
+.team-card--lead-2:hover,
+.team-card--lead-2:focus-within {
+  transform: translateY(-12px);
+  box-shadow: 0 50px 90px rgba(16, 201, 114, 0.35);
+}
+
+.team-card--lead-3:hover,
+.team-card--lead-3:focus-within {
+  transform: translateY(-12px);
+  box-shadow: 0 50px 90px rgba(10, 59, 219, 0.35);
+}
+
 .team-card__image {
   position: relative;
   overflow: hidden;
