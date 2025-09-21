@@ -362,9 +362,38 @@ img {
   background: url("../img/4l-event.jpg") center center/cover no-repeat;
 }
 
+.section--alt-2 h2 {
+  font-size: 60px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff0000, #0000ff); /* rouge → bleu */
+      -webkit-background-clip: text;  /* pour Chrome, Safari */
+      -webkit-text-fill-color: transparent;
+      background-clip: text;          /* pour Firefox */
+      color: transparent;
+}
+
+.section--alt-2 h4 {
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff0000, #0000ff); /* rouge → bleu */
+  -webkit-background-clip: text;  /* pour Chrome, Safari */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;          /* pour Firefox */
+  color: transparent;
+}
+
+.section--alt-3 h2 {
+  font-size: 60px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff0000, #0000ff); /* rouge → bleu */
+      -webkit-background-clip: text;  /* pour Chrome, Safari */
+      -webkit-text-fill-color: transparent;
+      background-clip: text;          /* pour Firefox */
+      color: transparent;
+}
+
 .section--cta {
   background: radial-gradient(circle at 15% 25%, rgba(255, 183, 3, 0.3), transparent 55%),
-    linear-gradient(120deg, #0f0d19, #ef233c 55%, #f77f00 100%);
+    linear-gradient(120deg, #281394, #b62b3c 55%, #834d13 100%);
   color: #fff;
 }
 
