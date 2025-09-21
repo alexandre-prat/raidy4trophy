@@ -23,6 +23,10 @@
   padding: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 body {
   font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text);
@@ -542,6 +546,7 @@ img {
   font-weight: 600;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+  text-align-last: center;
 }
 
 .package__price {
@@ -549,6 +554,7 @@ img {
   font-size: 2rem;
   color: var(--primary);
   margin-bottom: 1rem;
+  text-align-last: center;
 }
 
 .package ul {
@@ -578,7 +584,19 @@ img {
 .team-card--lead {
   border-color: rgba(239, 35, 60, 0.35);
   box-shadow: 0 40px 70px rgba(239, 35, 60, 0.2);
-  transform: translateY(-8px);
+  /*transform: translateY(-8px);*/
+}
+
+.team-card--lead-2 {
+  border-color: rgba(16, 201, 114, 0.35);
+  box-shadow: 0 40px 70px rgba(16, 201, 114, 0.35);
+  /*transform: translateY(-8px);*/
+}
+
+.team-card--lead-3 {
+  border-color: rgba(10, 59, 219, 0.35);
+  box-shadow: 0 40px 70px rgba(10, 59, 219, 0.35);
+  /*transform: translateY(-8px);*/
 }
 
 .team-card:hover,
@@ -623,6 +641,14 @@ img {
   background: var(--primary);
 }
 
+.team-card--lead-2 .team-card__badge {
+  background: rgba(16, 201, 114, 1);
+}
+
+.team-card--lead-3 .team-card__badge {
+  background: rgba(10, 59, 219, 1);
+}
+
 .team-card__content {
   padding: 1.9rem;
   display: flex;
@@ -646,6 +672,14 @@ img {
 
 .team-card--lead .role {
   color: var(--primary);
+}
+
+.team-card--lead-2 .role {
+  color: rgba(16, 201, 114, 1);
+}
+
+.team-card--lead-3 .role {
+  color: rgba(10, 59, 219, 1);
 }
 
 .news-grid {
@@ -733,6 +767,8 @@ img {
 .footer-bottom {
   margin-top: 3rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.85rem;
 }
